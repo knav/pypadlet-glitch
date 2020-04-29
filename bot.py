@@ -96,6 +96,8 @@ async def background_timer():
                     await channel.send(content="... and more! \n All posts are on https://padlet.tk.sg/swift2020submissions")
                 elif len(relevant_data) > 0:
                     await embed_generator(channel, relevant_data)
+                elif len(relevant_data) == 0:
+                    print("Nothing posted recently.")
             else:
                 print("There is no content, or the endpoint has permanently moved.")
                 print(response.status_code)

@@ -7,9 +7,9 @@
 		"Channels":{
 			"allowed": ["general", "hw-submission"],
 			"general": 697672130376237099,
-			"hw-submission": 697682410581786714
+			"posting-channel": 697682410581786714
 		},
 		"Bot Mention": "!",
-		"Time between loop": 1
+		"Time between loop": 0.5
 	}
 }
